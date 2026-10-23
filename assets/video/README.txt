@@ -1,0 +1,1 @@
+Background banner: ssstik-banner.mp4 (autoplay + muted + loop). Portfolio video: DRIED.mp4 (controls in Gallery > Video).

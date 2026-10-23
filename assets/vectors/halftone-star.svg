@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <pattern id="blueDots" width="13" height="13" patternUnits="userSpaceOnUse"><circle cx="6.5" cy="6.5" r="3.6" fill="#000ec4"/></pattern>
+    <pattern id="whiteDots" width="13" height="13" patternUnits="userSpaceOnUse"><circle cx="6.5" cy="6.5" r="2.05" fill="#f5f1e8"/></pattern>
+    <clipPath id="starClip"><path d="M200 8 C222 111 287 178 392 200 C287 222 222 289 200 392 C178 289 113 222 8 200 C113 178 178 111 200 8Z"/></clipPath>
+    <radialGradient id="shine" cx="0" cy="0" r="1" gradientTransform="translate(200 200) rotate(90) scale(190)" gradientUnits="userSpaceOnUse"><stop stop-color="#000ec4" stop-opacity=".35"/><stop offset="1" stop-color="#000ec4" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g clip-path="url(#starClip)">
+    <rect width="400" height="400" fill="url(#blueDots)"/>
+    <path d="M200 8 C222 111 287 178 392 200 C287 222 222 289 200 392 C178 289 113 222 8 200 C113 178 178 111 200 8Z" fill="url(#shine)"/>
+    <path d="M200 8 C222 111 287 178 392 200 C287 222 222 289 200 392 C178 289 113 222 8 200 C113 178 178 111 200 8Z" fill="url(#whiteDots)" opacity=".38"/>
+  </g>
+  <path d="M200 8 C222 111 287 178 392 200 C287 222 222 289 200 392 C178 289 113 222 8 200 C113 178 178 111 200 8Z" stroke="#f5f1e8" stroke-width="4" stroke-linejoin="round"/>
+</svg>
